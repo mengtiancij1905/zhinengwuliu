@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="修改hy_user模块,增加hy_user模块配置文件">
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hy_euraka_center/target/" />
@@ -215,147 +211,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -497,17 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1578314734002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改hy_user模块,增加commons代码模块配置文件">
+      <created>1578320608279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578320608279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9720000" />
+    <option name="totallyTimeSpent" value="9997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28809014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28809014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,7 +388,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076336" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928178" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49923664" weight="0.3293718" />
@@ -585,7 +447,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加hy_user模块" />
     <MESSAGE value="修改hy_user模块，增加src" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改hy_user模块，增加src" />
+    <MESSAGE value="修改hy_user模块,增加hy_user模块配置文件" />
+    <MESSAGE value="修改hy_user模块,增加commons代码模块配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改hy_user模块,增加commons代码模块配置文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hy_euraka_center/src/main/java/com/hy/EurekaServerApplication.java">
