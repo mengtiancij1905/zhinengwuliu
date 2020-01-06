@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev
+    cloud:
+      config:
+        discovery:
+          service-id: config-server
+          enabled: true #开启配置服务功能
+        fail-fast: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/logistic
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 1234
+
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:123@localhost:8761/eureka/

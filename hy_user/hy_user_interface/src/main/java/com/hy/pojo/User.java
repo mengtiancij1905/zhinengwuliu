@@ -1,4 +1,4 @@
-package com.hy;
+package com.hy.pojo;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 @Table(name = "tb_user")
-public class pojo {
+public class User {
 
     private Integer id;
     private String phone;
