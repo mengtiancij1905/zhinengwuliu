@@ -14,6 +14,7 @@
         <module>hy_zuul_center</module>
         <module>hy_commons</module>
         <module>hy_monitor_admin</module>
+        <module>hy_user</module>
     </modules>
 
     <parent>

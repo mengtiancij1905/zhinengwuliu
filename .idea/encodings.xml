@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/hy_config_center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_euraka_center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_monitor_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy_user/hy_user_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy_user/hy_user_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_zuul_center" charset="UTF-8" />
   </component>
 </project>

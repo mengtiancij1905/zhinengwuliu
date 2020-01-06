@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hy_commons" />
-        <module name="hy_euraka_center" />
-        <module name="hy_zuul_center" />
+        <module name="hy_user_interface" />
         <module name="hy_monitor_admin" />
+        <module name="hy_user_service" />
+        <module name="hy_zuul_center" />
+        <module name="hy_commons" />
         <module name="hy_config_center" />
+        <module name="hy_euraka_center" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +22,9 @@
       <module name="hy_config_center" options="-parameters" />
       <module name="hy_euraka_center" options="-parameters" />
       <module name="hy_monitor_admin" options="-parameters" />
+      <module name="hy_user" options="-parameters" />
+      <module name="hy_user_interface" options="-parameters" />
+      <module name="hy_user_service" options="-parameters" />
       <module name="hy_zuul_center" options="-parameters" />
     </option>
   </component>
