@@ -15,6 +15,7 @@
         <module>hy_commons</module>
         <module>hy_monitor_admin</module>
         <module>hy_user</module>
+        <module>hy_author</module>
     </modules>
 
     <parent>

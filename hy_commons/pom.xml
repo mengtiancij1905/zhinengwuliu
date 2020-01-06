@@ -11,6 +11,14 @@
 
     <groupId>com.syc.hychina</groupId>
     <artifactId>hy_commons</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.4.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
