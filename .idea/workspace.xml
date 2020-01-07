@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="修改hy_user模块,增加commons代码模块配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/MD5Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_config_center/target/classes/com/hy/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_config_center/target/classes/com/hy/ConfigServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/EurekaServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state relative-caret-position="1725">
+              <caret line="78" column="57" lean-forward="true" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1246#1262#0" expanded="true" />
@@ -59,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -68,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="159">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/UserServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="207">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,7 +166,6 @@
         <option value="$PROJECT_DIR$/hy_euraka_center/pom.xml" />
         <option value="$PROJECT_DIR$/hy_zuul_center/pom.xml" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" />
-        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" />
         <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/CodecUtils.java" />
         <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" />
@@ -199,6 +180,7 @@
         <option value="$PROJECT_DIR$/hy-sms/pom.xml" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -228,8 +210,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-27" />
-    <option name="y" value="56" />
+    <option name="x" value="393" />
+    <option name="y" value="109" />
     <option name="width" value="1931" />
     <option name="height" value="993" />
   </component>
@@ -247,78 +229,6 @@
             <path>
               <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
               <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hy" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
-              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,7 +387,7 @@
       <workItem from="1578301762075" duration="4282000" />
       <workItem from="1578310423930" duration="3351000" />
       <workItem from="1578314104478" duration="1903000" />
-      <workItem from="1578355628444" duration="3146000" />
+      <workItem from="1578355628444" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="增加hy_user模块">
       <created>1578311931108</created>
@@ -521,14 +431,22 @@
       <option name="project" value="LOCAL" />
       <updated>1578320995264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改hy_user模块,增加commons代码模块配置文件">
+      <created>1578358981670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578358981670</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17603000" />
+    <option name="totallyTimeSpent" value="17863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="548" y="13" width="1931" height="993" extended-state="0" />
+    <frame x="393" y="109" width="1931" height="993" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25632742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -552,8 +470,8 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3225" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49892703" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.27375" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49892703" visible="true" weight="0.32875" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.27375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -893,20 +811,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state relative-caret-position="1725">
+          <caret line="78" column="57" lean-forward="true" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1246#1262#0" expanded="true" />
@@ -916,18 +831,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/UserServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="207">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="159">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
