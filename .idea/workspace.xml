@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="">
+    <list default="true" id="dd60c71e-c286-490f-b839-a2aae4c72b4b" name="Default Changelist" comment="修改hy_user模块,增加commons代码模块配置文件">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_config_center/target/classes/com/hy/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_config_center/target/classes/com/hy/ConfigServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hy_euraka_center/target/classes/com/hy/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +32,9 @@
     <ignored path="$PROJECT_DIR$/hy_user/target/" />
     <ignored path="$PROJECT_DIR$/hy_user/hy_user_interface/target/" />
     <ignored path="$PROJECT_DIR$/hy_user/hy_user_service/target/" />
+    <ignored path="$PROJECT_DIR$/hy_author/target/" />
+    <ignored path="D:\HYChina\.idea\shelf/" />
+    <ignored path="$PROJECT_DIR$/hy-sms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +47,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="10">
+              <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="29">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,61 +81,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_config_center/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/WlkgSmsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/dto/HyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state>
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy-sms/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/UserServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,22 +111,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_commons/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/mp/SmsListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="185">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/dto/ExceptionResult.java">
+        <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/pojo/SmsProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-7">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/utils/SmsUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="63" selection-start-line="63" selection-end-line="68" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,6 +159,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -155,20 +175,30 @@
         <option value="$PROJECT_DIR$/hy_user/hy_user_interface/pom.xml" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo.java" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/User.java" />
-        <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/Perms.java" />
         <option value="$PROJECT_DIR$/hy_config_center/src/main/resources/dev/user-dev.yml" />
         <option value="$PROJECT_DIR$/hy_user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hy_user/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hy_config_center/pom.xml" />
-        <option value="$PROJECT_DIR$/hy_commons/pom.xml" />
         <option value="$PROJECT_DIR$/hy_monitor_admin/pom.xml" />
         <option value="$PROJECT_DIR$/hy_euraka_center/pom.xml" />
         <option value="$PROJECT_DIR$/hy_zuul_center/pom.xml" />
-        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" />
         <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/CodecUtils.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_commons/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/UserServerApplication.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -181,8 +211,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\IdeaCode\MavenRepository" />
-        <option name="userSettingsFile" value="D:\Maven-3.6.2\apache-maven-3.6.2\conf\settings.xml" />
+        <option name="localRepository" value="D:\MavenRepository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -197,11 +227,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="452" />
-    <option name="y" value="163" />
-    <option name="width" value="1288" />
-    <option name="height" value="773" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-27" />
+    <option name="y" value="56" />
+    <option name="width" value="1931" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -211,8 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +304,28 @@
               <item name="hy" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +337,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy_user/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy-sms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,7 +346,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hy.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HYChina\hy-sms" />
       <recent name="D:\HYChina\hy_zuul_center\src\main\java\com\hy" />
       <recent name="D:\HYChina\hy_zuul_center\src\main\resources" />
       <recent name="D:\HYChina\hy_euraka_center\src\main\java\com\hy" />
@@ -324,7 +374,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MonitorAdminApplication">
+  <component name="RunManager" selected="Spring Boot.UserServerApplication">
+    <configuration name="AuthorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy_author" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hy.AuthorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hy_config_center" />
       <extension name="coverage">
@@ -364,6 +421,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hy_user_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hy.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WlkgSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qz.sms.WlkgSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hy_zuul_center" />
       <extension name="coverage">
@@ -379,10 +456,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.UserServerApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.MonitorAdminApplication" />
         <item itemvalue="Spring Boot.ZuulServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -399,6 +477,7 @@
       <workItem from="1578301762075" duration="4282000" />
       <workItem from="1578310423930" duration="3351000" />
       <workItem from="1578314104478" duration="1903000" />
+      <workItem from="1578355628444" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="增加hy_user模块">
       <created>1578311931108</created>
@@ -435,16 +514,23 @@
       <option name="project" value="LOCAL" />
       <updated>1578320929303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改hy_user模块,增加commons代码模块配置文件">
+      <created>1578320995264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578320995264</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10269000" />
+    <option name="totallyTimeSpent" value="17603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="548" y="13" width="1931" height="993" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28809014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25632742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -462,16 +548,16 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076336" side_tool="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928178" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.32928178" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3225" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49923664" visible="true" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.50933784" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49892703" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.27375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32900763" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.04900377" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -479,42 +565,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32908848" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33476394" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.50933784" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32886267" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32908848" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -527,37 +577,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改hy_user模块,增加commons代码模块配置文件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hy_euraka_center/src/main/java/com/hy/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_center/src/main/java/com/hy/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_euraka_center/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy_config_center/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -588,20 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -641,20 +646,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hy_user/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/hy_user/src/main/java/com/hy/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/hy_commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy_monitor_admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -662,21 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy_euraka_center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
@@ -690,7 +667,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java">
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/jopo/ExceptionEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/dto/HyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_author/src/main/java/com/hy/shiro/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/dto/ExceptionResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
@@ -700,30 +701,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/hy_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserSercvice.java" />
+    <entry file="file://$PROJECT_DIR$/hy_config_center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_author/src/main/java/com/hy/shiro/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/CodecUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/MD5Utils.java" />
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_interface/src/main/java/com/hy/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/exception/CommonExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/hy/utils/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_euraka_center/src/main/java/com/hy/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_euraka_center/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_center/src/main/java/com/hy/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/mp/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/pojo/SmsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/utils/SmsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/src/main/java/com/qz/sms/WlkgSmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="416">
+          <caret line="63" selection-start-line="63" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy-sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="29">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/java/com/hy/UserServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user/hy_user_service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hy_user/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-sms/pom.xml" />
       </list>
     </option>
   </component>

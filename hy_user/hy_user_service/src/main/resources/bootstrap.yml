@@ -10,10 +10,24 @@ spring:
           enabled: true #开启配置服务功能
         fail-fast: true
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/logistic
+    url: jdbc:mysql://127.0.0.1:3306/logistic?serverTimezone=UTC
     username: root
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     password: 1234
+  redis:
+    host: 192.168.79.72
+  rabbitmq:
+      host: 192.168.79.72
+      username: wlkg
+      password: 123123
+      virtual-host: /wlkg
+      template:
+        retry:
+          enabled: true
+          initial-interval: 10000ms
+          max-interval: 210000ms
+          multiplier: 2
+      publisher-confirms: true
 
 eureka:
   client:

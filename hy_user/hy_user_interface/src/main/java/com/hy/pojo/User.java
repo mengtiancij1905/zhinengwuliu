@@ -9,6 +9,7 @@ import java.util.Date;
 @Table(name = "tb_user")
 public class User {
 
+
     private Integer id;
     private String phone;
     private String password;
@@ -17,6 +18,7 @@ public class User {
     private String company;
     private String  referrerPhone;
     private Integer companyId;
+    private String salt;
     private Integer roleId;
     private Date createTime;
 

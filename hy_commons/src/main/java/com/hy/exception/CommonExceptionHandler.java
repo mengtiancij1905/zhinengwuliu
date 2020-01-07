@@ -1,7 +1,6 @@
 package com.hy.exception;
 import com.hy.dto.ExceptionResult;
 import com.hy.dto.HyException;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

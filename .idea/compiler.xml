@@ -8,17 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hy_user_interface" />
         <module name="hy_monitor_admin" />
-        <module name="hy_zuul_center" />
-        <module name="hy_config_center" />
-        <module name="hy_commons" />
-        <module name="hy_author" />
         <module name="hy_user_service" />
+        <module name="hy_zuul_center" />
+        <module name="hy_commons" />
+        <module name="hy-sms" />
+        <module name="hy_author" />
+        <module name="hy_config_center" />
         <module name="hy_euraka_center" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hy-sms" options="-parameters" />
       <module name="hy_author" options="-parameters" />
       <module name="hy_commons" options="-parameters" />
       <module name="hy_config_center" options="-parameters" />
