@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class HySmsApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(HySmsApplication.class, args);
     }
